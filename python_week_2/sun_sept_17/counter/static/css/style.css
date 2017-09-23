@@ -1,0 +1,9 @@
+div {
+	border: solid;
+	border-color: black;
+	border-width: 1px;
+	align-items: center;
+	display: block;
+	margin: 25%;
+	padding-left: 18%;
+}

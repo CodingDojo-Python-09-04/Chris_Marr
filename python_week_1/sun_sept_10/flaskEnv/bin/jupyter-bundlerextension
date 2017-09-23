@@ -1,0 +1,11 @@
+#!/Users/cmarr31/online_coding_dojo_masterepo/python_week_1/sun_sept_10/flaskEnv/bin/python2.7
+
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from notebook.bundler.bundlerextensions import main
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())

@@ -1,0 +1,8 @@
+#wrapper {
+	display: block;
+	height: 450px;
+	width: 250px;
+	border: solid;
+	border-color: black;
+	margin-left: 40%;
+}
