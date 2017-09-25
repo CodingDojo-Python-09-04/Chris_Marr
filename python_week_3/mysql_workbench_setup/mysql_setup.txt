@@ -1,0 +1,4 @@
+USE blogs;
+
+SELECT * FROM blogs;
+DELETE FROM blogs WHERE id = 2;
